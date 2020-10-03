@@ -11,11 +11,15 @@ const Data = new Schema({
     usercity: String,
     useralias: String,
     userscore: Number,
+    userexp: Number,
     
     /* Trivia */
     main: String,
     type: String,
     code: Number,
+    quest: String,
+   answer: String,
+   rate: Number,
     
     
 });
