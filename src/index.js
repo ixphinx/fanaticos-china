@@ -28,5 +28,5 @@ app.use('/api', require('../src/routes/index'));
 
 //server
 app.listen(app.get('port'), ()=>{
-    console.log('Servidor 33legaue-webmain en puerto ', app.get('port'));
+    console.log('Servidor Fanaticos en puerto ', app.get('port'));
 })
