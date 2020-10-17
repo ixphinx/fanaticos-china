@@ -8,7 +8,7 @@ const Data = new Schema({
     username: String,
     userlastname: String,
     usercountry: String,
-    usercity: String,
+    userteam: String,
     useralias: String,
     userscore: Number,
     userexp: Number,
@@ -18,8 +18,11 @@ const Data = new Schema({
     type: String,
     code: Number,
     quest: String,
-   answer: String,
-   rate: Number,
+    ranswer: String,
+    wanswer1: String,
+    wanswer2: String,
+    wanswer3: String,
+    rate: Number,
     
     
 });
