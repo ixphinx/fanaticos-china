@@ -17,11 +17,10 @@ const Data = new Schema({
     main: String,
     type: String,
     code: Number,
-    quest: String,
+    pregunta: String,
     ranswer: String,
-    wanswer1: String,
-    wanswer2: String,
-    wanswer3: String,
+    answer: String,
+    answerid: String,
     rate: Number,
     
     
