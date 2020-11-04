@@ -12,6 +12,7 @@ const Data = new Schema({
     useralias: String,
     userscore: Number,
     userexp: Number,
+    newuser: Boolean,
     
     /* Trivia */
     main: String,
