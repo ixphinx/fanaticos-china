@@ -13,6 +13,9 @@ const Data = new Schema({
     userscore: Number,
     userexp: Number,
     newuser: Boolean,
+   userbrzcup: Number,
+   usersilvcup: Number,
+   usergoldcup: Number,
     
     /* Trivia */
     main: String,
