@@ -26,6 +26,7 @@ const Data = new Schema({
     answer: String,
     answerid: String,
     rate: Number,
+   img: String,
     
     
 });
